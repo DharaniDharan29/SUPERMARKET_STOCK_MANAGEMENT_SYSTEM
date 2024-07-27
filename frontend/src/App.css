@@ -1,0 +1,86 @@
+/* App.css */
+.center-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh; /* Ensure full viewport height */
+}
+
+.circle-button {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin: 10px; /* Add margin to space out the buttons */
+}
+
+.circle-button:hover {
+  background-color: #0056b3;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navbar ul li:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin: 20px 0;
+}
+
+.about, .contact {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.table-container {
+  padding: 20px;
+
+  background-color: #f9f9f9;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  
+  background-color: #f9f9f997;
+}
+
+th, td {
+  border: 1px solid #dddddd8b;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+body{
+  background-image: url('https://img.freepik.com/free-photo/abundance-healthy-food-choices-supermarket-aisle-generated-by-ai_188544-42447.jpg?t=st=1718705747~exp=1718709347~hmac=9e145bc835199deb578f51f3b8ff33f4c2b9a396bc9aecd8b4393a353ec5a4e6&w=1380');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
